@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import AddTaskForm from './components/AddTaskForm'
-import MemberFilter from './components/MemberFilter'
-import ProjectProgress from './components/ProjectProgress'
-import RoleColumn from './components/RoleColumn'
+import MemberFilter from './components/MembersFilter'
+import ProjectProgress from './components/ProjectsProgress'
+import RoleColumn from './components/RolesColumn'
 
 const MEMBERS = ['Charnon', 'Focus', 'Heinz', 'Tony', 'Touch']
 const ROLES = ['UI/UX', 'Frontend', 'Backend', 'Database']

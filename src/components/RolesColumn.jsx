@@ -1,4 +1,4 @@
-import TaskItem from './TaskItem'
+import TaskItem from './TaskItems'
 function RoleColumn({ status, tasks, onDelete, onStatusChange }) {
   return (
     <div className="bg-white/80 p-4 rounded-xl shadow border min-h-[300px]">
